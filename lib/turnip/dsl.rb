@@ -22,5 +22,11 @@ module Turnip
         end
       end
     end
+
+    alias_method :Given, :step
+    alias_method :When, :step
+    alias_method :Then, :step
+    alias_method :And, :step
+    alias_method :But, :step
   end
 end
